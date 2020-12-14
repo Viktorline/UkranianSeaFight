@@ -1,0 +1,302 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/ЗаднийФон.png);
+    color: black;
+}
+
+.main{
+    background: url(../img/mainback.jpg.png) no-repeat;
+    
+    width: 100vh;
+    height: 100%;
+    margin: auto;
+    
+    border-left: 20px solid rgb(1, 1, 2);
+    border-right: 20px solid rgb(1, 1, 2);
+    border-bottom: 10px solid  rgb(1, 1, 2);
+}
+
+/* Заставка */
+
+.seaFight{
+    background: url(../img/Main.png) center no-repeat ;
+    width: 100vh;
+    height: 10vh;
+}
+
+/* Поле для игры */
+
+table{
+    
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(11, 9, 110);
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    border: 1px solid rgb(20, 69, 233);
+    width: 69px;
+    height: 69px;
+
+}
+
+th{
+    width: 69px;
+    height: 69px;
+}
+
+/* Буквы */
+tr:first-of-type th:nth-child(2) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: 18px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(3) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -65px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(4) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -150px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(5) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -230px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(6) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -315px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(7) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -400px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(8) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -480px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(9) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -565px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(10) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -645px;
+    background-position-y: 5px;
+}
+
+tr:first-of-type th:nth-child(11) {
+    background: url(../img/буквы.png) no-repeat center;
+    background-position-x: -730px;
+    background-position-y: 5px;
+}
+
+/* Цифры */
+
+tr:nth-child(2) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -5px;
+}
+
+tr:nth-child(3) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -85px;
+}
+
+tr:nth-child(4) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -170px;
+}
+
+tr:nth-child(5) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -250px;
+}
+
+tr:nth-child(6) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -335px;
+}
+
+tr:nth-child(7) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -415px;
+}
+
+tr:nth-child(8) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -505px;
+}
+
+tr:nth-child(9) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -580px;
+}
+
+tr:nth-child(10) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -660px;
+}
+
+tr:nth-child(11) th:first-of-type{
+    background: url(../img/цифры.png) no-repeat center;
+    background-position-x: 10px;
+    background-position-y: -745px;
+}
+
+
+
+
+
+/* Формы и кнопка */
+
+.under{
+    display: flex;
+    flex-direction: row;
+
+    margin: auto;
+    padding: 0px 20px;
+    width: 800px;
+}
+
+.shipOne{
+    background: url(../img/ShipOne.png);
+    width: 250px;
+}
+
+.shipTwo{
+    background: url(../img/ShipTwo.png);
+    width: 250px;
+}
+
+.form{
+    margin: auto;
+    min-width: 300px;
+    background-color: rgb(13, 16, 26);
+    border-left: 10px solid rgb(0, 0, 0);
+    border-right: 10px solid rgb(0, 0, 0);
+}
+
+form{
+    display: flex;
+}
+
+form .info{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100px;
+}
+
+
+form input{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(26, 10, 173);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    text-decoration: uppercase;
+
+    color: black;
+    width: 100px;  
+
+}
+
+form button{
+    border: none;
+    background-color: rgb(9, 12, 12);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(228, 6, 6);
+    border-radius: 5px;
+    width: 110px;
+
+}
+
+/* Анимации */
+.hit {
+    background: url(../img/hit.png) no-repeat center center;
+}
+
+.miss {
+    background: url(../img/miss.png) no-repeat center center;;
+}
+ 
+/* Вывод сообщений */
+
+.messageArea{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(33, 107, 136);
+    background-color: black;
+    border: 5px solid rgb(6, 41, 61);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Меню */
+
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+
+    background: url(../img/Меню.png);
+    opacity: 1;
+}
+
+.buttonInfo{
+    position: relative;
+    top: 80%;
+    width: 200px;
+    height: 200px;
+
+    margin: auto;
+    
+}
+
+.buttonInfo button{
+    position: absolute;
+    background-color: rgb(51, 84, 175);
+    font-size: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+body audio{
+    position: absolute;
+    bottom: 0;
+}
